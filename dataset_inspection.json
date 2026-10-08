@@ -1,0 +1,882 @@
+[
+  {
+    "file": "afreeca_dataset.csv",
+    "shape": [
+      72840,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 48.0,
+        "UL_bitrate": 100.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 1706516.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 36325.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "d74b64b3afeed8f9903f69494efee319103dd96c3194e5ab30463719b2d30bbf",
+    "rows_used_for_analysis": 72840
+  },
+  {
+    "file": "amazon_dataset.csv",
+    "shape": [
+      117550,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 48.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 5218.0,
+        "UL_bitrate": 655.0
+      },
+      {
+        "DL_bitrate": 808.0,
+        "UL_bitrate": 3196.0
+      },
+      {
+        "DL_bitrate": 7974.0,
+        "UL_bitrate": 2563.0
+      },
+      {
+        "DL_bitrate": 117748.0,
+        "UL_bitrate": 21276.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 11580642.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 224765.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "b8e7681bc8ef838d876cbef7e50b352a107da07775ec6bf90a4dfbef5346a44e",
+    "rows_used_for_analysis": 117550
+  },
+  {
+    "file": "battleground_dataset.csv",
+    "shape": [
+      57777,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "int64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 553,
+        "UL_bitrate": 665.0
+      },
+      {
+        "DL_bitrate": 5796,
+        "UL_bitrate": 2702.0
+      },
+      {
+        "DL_bitrate": 21510,
+        "UL_bitrate": 16201.0
+      },
+      {
+        "DL_bitrate": 471069,
+        "UL_bitrate": 14663.0
+      },
+      {
+        "DL_bitrate": 817,
+        "UL_bitrate": 756.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 24833140.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 97774.0,
+        "nan_count": 2,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "f107e1665603c91b17f7cab21c22f2d813f6c8c6dfecfa78ce16b9d3a1cae6a6",
+    "rows_used_for_analysis": 57777
+  },
+  {
+    "file": "gamebox_dataset.csv",
+    "shape": [
+      44606,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 16101.0,
+        "UL_bitrate": 4125.0
+      },
+      {
+        "DL_bitrate": 3494.0,
+        "UL_bitrate": 1947.0
+      },
+      {
+        "DL_bitrate": 493374.0,
+        "UL_bitrate": 8349.0
+      },
+      {
+        "DL_bitrate": 665583.0,
+        "UL_bitrate": 4110.0
+      },
+      {
+        "DL_bitrate": 757277.0,
+        "UL_bitrate": 3859.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 40.0,
+        "maximum": 2332034.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 12008.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "d501c654b5ccce7e49c672efdfd38bded71ae92b7e0d72200354c23b09cd563c",
+    "rows_used_for_analysis": 44606
+  },
+  {
+    "file": "geforce_dataset.csv",
+    "shape": [
+      44781,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "int64",
+      "UL_bitrate": "int64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 11186,
+        "UL_bitrate": 1429
+      },
+      {
+        "DL_bitrate": 0,
+        "UL_bitrate": 0
+      },
+      {
+        "DL_bitrate": 7282,
+        "UL_bitrate": 599
+      },
+      {
+        "DL_bitrate": 0,
+        "UL_bitrate": 0
+      },
+      {
+        "DL_bitrate": 0,
+        "UL_bitrate": 0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 2637418.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 101454.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "e1145f136893368dd9e4c914f3bd103ae5f13781b26415f7817d15529244c42e",
+    "rows_used_for_analysis": 44781
+  },
+  {
+    "file": "meet_dataset.csv",
+    "shape": [
+      86500,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 63.0
+      },
+      {
+        "DL_bitrate": 507.0,
+        "UL_bitrate": 1193.0
+      },
+      {
+        "DL_bitrate": 10696.0,
+        "UL_bitrate": 14849.0
+      },
+      {
+        "DL_bitrate": 8633.0,
+        "UL_bitrate": 5820.0
+      },
+      {
+        "DL_bitrate": 18715.0,
+        "UL_bitrate": 49384.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 115458.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 132770.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "707cfeddbebaceb5cc9433420e4c2cd3d302e056251bc5add5d156e0458f7d33",
+    "rows_used_for_analysis": 86500
+  },
+  {
+    "file": "navernow_dataset (1).csv",
+    "shape": [
+      121834,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 409507.0,
+        "UL_bitrate": 7725.0
+      },
+      {
+        "DL_bitrate": 6059.0,
+        "UL_bitrate": 4809.0
+      },
+      {
+        "DL_bitrate": 409290.0,
+        "UL_bitrate": 6600.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 9272701.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 71452.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "20c9f120198750bb52392acae46a60c988bdc1718bb1f41601c7a179b7b1def4",
+    "rows_used_for_analysis": 121834
+  },
+  {
+    "file": "navernow_dataset.csv",
+    "shape": [
+      121834,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 409507.0,
+        "UL_bitrate": 7725.0
+      },
+      {
+        "DL_bitrate": 6059.0,
+        "UL_bitrate": 4809.0
+      },
+      {
+        "DL_bitrate": 409290.0,
+        "UL_bitrate": 6600.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 9272701.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 71452.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "20c9f120198750bb52392acae46a60c988bdc1718bb1f41601c7a179b7b1def4",
+    "duplicate_of": "navernow_dataset (1).csv"
+  },
+  {
+    "file": "netflix_dataset.csv",
+    "shape": [
+      88982,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 48.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 5852585.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 90383.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "65fecb0056e952c8a453bcdf981901b59be9c51fb3f8c2aa3aaebfc3ca9cd72a",
+    "rows_used_for_analysis": 88982
+  },
+  {
+    "file": "roblox_dataset.csv",
+    "shape": [
+      90251,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "int64",
+      "UL_bitrate": "int64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 42235,
+        "UL_bitrate": 171
+      },
+      {
+        "DL_bitrate": 325127,
+        "UL_bitrate": 174
+      },
+      {
+        "DL_bitrate": 489465,
+        "UL_bitrate": 406
+      },
+      {
+        "DL_bitrate": 405070,
+        "UL_bitrate": 403
+      },
+      {
+        "DL_bitrate": 24154,
+        "UL_bitrate": 116
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 489465.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 11774.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "85ae02ff796de31ad193486ad5dba11a1d0682c6696e495f888a5bb1fa19cd01",
+    "rows_used_for_analysis": 90251
+  },
+  {
+    "file": "teams_dataset.csv",
+    "shape": [
+      101847,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 108.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 1422.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 5291.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 5467.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 10389.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 176762.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 236719.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "fd1a551c64a7dde68f70ae7ab69ba4b1b3a6acb534b4c83bccc2a9a5821a7e77",
+    "rows_used_for_analysis": 101847
+  },
+  {
+    "file": "tft_dataset.csv",
+    "shape": [
+      49613,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 76.0
+      },
+      {
+        "DL_bitrate": 60386.0,
+        "UL_bitrate": 11246.0
+      },
+      {
+        "DL_bitrate": 787.0,
+        "UL_bitrate": 1886.0
+      },
+      {
+        "DL_bitrate": 2287.0,
+        "UL_bitrate": 2057.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 269662.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 111383.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "af7239a2019d94e90a7ed7e1ebb312fc0629c5546b5434786f7b4bf3e24b8b40",
+    "rows_used_for_analysis": 49613
+  },
+  {
+    "file": "youtube_dataset.csv",
+    "shape": [
+      82791,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 11951.0,
+        "UL_bitrate": 8903.0
+      },
+      {
+        "DL_bitrate": 31091.0,
+        "UL_bitrate": 3146546.0000000005
+      },
+      {
+        "DL_bitrate": 10288.0,
+        "UL_bitrate": 11205.0
+      },
+      {
+        "DL_bitrate": 1524.0,
+        "UL_bitrate": 2723.0000000000005
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 38838.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 6614442.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "497af41fdd7315db47f4ae331e6473854b959972b2f36a23983c16f96845469b",
+    "rows_used_for_analysis": 82791
+  },
+  {
+    "file": "youtubeLive_dataset.csv",
+    "shape": [
+      73178,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 1278.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      },
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 0.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 3072190.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 61111.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "515e0fc09f168acf3b69877dd4b1b1c6d7286964fe137c964a64a8c09177bf8c",
+    "rows_used_for_analysis": 73178
+  },
+  {
+    "file": "zepeto_dataset.csv",
+    "shape": [
+      55716,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "float64",
+      "UL_bitrate": "float64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0.0,
+        "UL_bitrate": 60.0
+      },
+      {
+        "DL_bitrate": 16457.0,
+        "UL_bitrate": 6078.0
+      },
+      {
+        "DL_bitrate": 289878.0,
+        "UL_bitrate": 30989.0
+      },
+      {
+        "DL_bitrate": 45702.0,
+        "UL_bitrate": 11679.0
+      },
+      {
+        "DL_bitrate": 219007.0,
+        "UL_bitrate": 8554.0
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 298766.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 43654.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "ca23094b5949a8d42b3399a83304e89d3eb2b1b3d24adc61b2d84bea4fe124b5",
+    "rows_used_for_analysis": 55716
+  },
+  {
+    "file": "zoom_dataset.csv",
+    "shape": [
+      94373,
+      2
+    ],
+    "columns": [
+      "DL_bitrate",
+      "UL_bitrate"
+    ],
+    "dtypes": {
+      "DL_bitrate": "int64",
+      "UL_bitrate": "int64"
+    },
+    "first_5_rows": [
+      {
+        "DL_bitrate": 0,
+        "UL_bitrate": 217
+      },
+      {
+        "DL_bitrate": 104147,
+        "UL_bitrate": 45821
+      },
+      {
+        "DL_bitrate": 122455,
+        "UL_bitrate": 53859
+      },
+      {
+        "DL_bitrate": 112100,
+        "UL_bitrate": 54175
+      },
+      {
+        "DL_bitrate": 106782,
+        "UL_bitrate": 55028
+      }
+    ],
+    "column_checks": {
+      "DL_bitrate": {
+        "numeric": true,
+        "minimum": 0.0,
+        "maximum": 145852.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      },
+      "UL_bitrate": {
+        "numeric": true,
+        "minimum": 217.0,
+        "maximum": 141139.0,
+        "nan_count": 0,
+        "nonnumeric_count": 0
+      }
+    },
+    "sha256": "b40b620355278f79e5817863bdbd1f51dc17b030f1a0e6364530be731f4df9b6",
+    "rows_used_for_analysis": 94373
+  }
+]

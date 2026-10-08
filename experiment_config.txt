@@ -1,0 +1,72 @@
+{
+  "dataset_path": "C:\\Users\\Admin\\Desktop\\CN PROJECT\\data\\raw",
+  "observation_interval": 1,
+  "row_limit_for_smoke_run": null,
+  "time_index": "row order per application file; not a wall-clock timestamp",
+  "bitrate_units": "undocumented; preserved without conversion",
+  "features": [
+    "current_DL",
+    "current_UL",
+    "lag_DL_1/2/3/5",
+    "moving_average_DL",
+    "moving_std_DL",
+    "DL_growth_rate",
+    "UL_lag_1/2"
+  ],
+  "model": "RandomForestRegressor",
+  "model_parameters": {
+    "n_estimators": 150,
+    "random_state": 42,
+    "n_jobs": -1
+  },
+  "allocation_weights": {
+    "alpha": 0.6,
+    "beta": 0.2,
+    "gamma": 0.2
+  },
+  "bandwidth_capacity_normalized_simulation_units": 100.0,
+  "traffic_stream_counts": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "traffic_conditions": {
+    "LOW": 0.45,
+    "MEDIUM": 0.8,
+    "HIGH": 1.1,
+    "SPIKE": "step increase"
+  },
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "prediction_weight_candidates": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "lambda_selection": {
+    "candidate_values": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "criterion": "validation MAE of lambda*RF_next + (1-lambda)*current_demand",
+    "validation_mae_by_lambda": {
+      "0.0": 161405.90063817071,
+      "0.25": 136950.54879935723,
+      "0.5": 115352.29142441759,
+      "0.75": 95543.28678286978,
+      "1.0": 79021.12124401577
+    },
+    "selected_lambda": 0.75,
+    "test_data_used_for_selection": false,
+    "test_evaluation_started_after_lambda_freeze": true
+  },
+  "simulation_input": "current observed demand is the simulated offered load; next-step actual labels are excluded from allocator inputs",
+  "selected_lambda": 0.75
+}

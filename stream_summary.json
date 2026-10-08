@@ -1,0 +1,26 @@
+{
+  "unique_traffic_streams": 15,
+  "stream_ids": [
+    "afreeca_dataset",
+    "amazon_dataset",
+    "battleground_dataset",
+    "gamebox_dataset",
+    "geforce_dataset",
+    "meet_dataset",
+    "navernow_dataset",
+    "netflix_dataset",
+    "roblox_dataset",
+    "teams_dataset",
+    "tft_dataset",
+    "youtubeLive_dataset",
+    "youtube_dataset",
+    "zepeto_dataset",
+    "zoom_dataset"
+  ],
+  "rows_after_preprocessing": 1182637,
+  "measured_physical_users": "not identified by these files",
+  "bitrate_units": "not specified in local files or matching dataset description; raw numeric values retained",
+  "duplicate_files_skipped": [
+    "navernow_dataset.csv"
+  ]
+}
